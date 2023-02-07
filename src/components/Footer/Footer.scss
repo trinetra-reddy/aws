@@ -1,0 +1,108 @@
+@import '../../styles/variables';
+
+.footer {
+    background-color: $black;
+    color: $white;
+}
+.footer-cnt {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding: 10px;
+}
+.footer-cnt-col-1-heading{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.footer-cnt-col-1-descr {
+    display: flex;
+}
+.footer-cnt-col-1-descr-icon img{
+    width: 40px;
+}
+.footer-cnt-col-1-descr-text {
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 70%;
+}
+.footer-cnt-col-2-heading{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.footer-cnt-col-2-ctus{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.footer-cnt-col-2-abtus{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.footer-cnt-col-3-heading{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.footer-cnt-col-3-resources{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.footer-cnt-col-3-carrers{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.footer-cnt-col-4-heading{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.footer-cnt-col-4-phone {
+    display: flex;
+    padding-top: 10px;
+}
+.footer-cnt-col-4-phone-icon img{
+    width: 30px;
+}
+.footer-cnt-col-4-phone-number {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+}
+.footer-cnt-col-4-mail {
+    display: flex;
+    padding-top: 10px;
+}
+.footer-cnt-col-4-mail-icon img{
+    width: 30px;
+}
+.footer-cnt-col-4-mail-text {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+}
+@media screen and (min-width: 768px) {
+    .footer-cnt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding-top: 60px ;
+        margin: 0px 40px;
+    }
+}
+@media screen and (min-width: 998px) {
+    .footer-cnt {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        padding-top: 60px ;
+        margin: 0px 40px;
+    }
+}
