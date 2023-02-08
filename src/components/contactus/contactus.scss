@@ -133,7 +133,7 @@
     }
     .contactUs1 {
         flex: 50%;
-        margin:250px 0 0 30px;
+        margin:200px 0 0 30px;
         padding-right:0;
     }
 
@@ -161,8 +161,16 @@
         padding: 20px 0 20px 20px;
 
     }
+    .contactus-call-mail-text{
+        padding: 0 0 10px 20px;
+    }
     .contactus-comment {
         padding:0 0px 20px 20px;
+    }
+    .contactus-icons{
+        padding-top:10px;
+        mix-blend-mode: multiply;
+        background-color: transparent;
     }
 }
 

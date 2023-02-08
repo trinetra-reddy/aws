@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactus.scss";
-import callicon from "./callicon.jfif";
+import callicon from "./PhoneIcon.jfif";
 import mailicon from "./mail.jfif";
 
 const ContactUs = () => {
