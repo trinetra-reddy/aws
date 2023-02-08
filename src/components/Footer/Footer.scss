@@ -3,7 +3,9 @@
 .footer {
     background-color: $black;
     color: $white;
+    margin-top:30px;
 }
+
 .footer-cnt {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

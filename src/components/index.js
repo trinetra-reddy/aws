@@ -5,4 +5,4 @@ import ContactUs from "./contactus/contactus";
 import Banner from "./Banner/Banner";
 import Carousel from "./Carousel/Carousel";  
 
-export { Header, Footer,ConatctUsBanner,ContactUs,Carousel, Footer };
+export { Header, Footer,ConatctUsBanner,ContactUs,Carousel ,Banner};
