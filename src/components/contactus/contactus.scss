@@ -1,0 +1,218 @@
+.contactUs {
+    margin-top: 30px;
+}
+
+.contactUs1 {
+    text-align: left;
+    background-color: #e67D2491;
+    border-radius: 4px;
+    margin: 0 10px;
+    padding: 22px 30px 37px;
+}
+
+.contactUs2 {
+    margin: 0 10px;
+}
+
+.contactUs-text {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contactus-call-mail {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.contactus-call-mail img {
+    width: 35px;
+    height: 35px;
+}
+
+.contactus-call-mail-text {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.conatctus-call-mail-p {
+    font-size: 19px;
+    font-weight: 900;
+    padding-left: 20px;
+    color: white;
+}
+
+.contactus-contact-mail-details a {
+    text-decoration: none;
+}
+
+.contactus-contact-mail-details a:hover {
+    text-decoration: underline;
+}
+
+.contactus-msg-heading {
+    color: #f69100;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.contactus-msg-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 20px;
+}
+
+.form-content::after {
+    content: " *";
+    color: red;
+    font-size: 20px;
+}
+
+.contactus-comment {
+    padding: 0 20px 20px;
+}
+
+.contactusform1 {
+    padding: 0px 20px 0 20px;
+
+}
+
+.contactusform2 {
+    padding: 0px 20px 0 20px;
+
+}
+
+.contactus-input {
+    width: 100%;
+    height: 25px;
+   
+}
+
+.contactus-msg-input {
+    width: 100%;
+    height: 50px;
+}
+
+.contactus-button-1 {
+    text-align: center;
+}
+
+.contactus-button {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    width: 80%;
+    color: black;
+    border: none;
+    background-color: #f69100;
+    cursor: pointer;
+    border-radius: 2px;
+    align-items: center;
+
+}
+#form-text{  
+    font-weight: 700;
+    font-size: 16px;
+
+}
+@media screen and (min-width:768px) {
+    .contactUs {
+        display: flex;
+    }
+    .contactus-input1{
+        flex:50%;
+    }
+    .contactus-input2{
+        flex:50%;
+    }
+    .contactUs1 {
+        flex: 50%;
+        margin:250px 0 0 30px;
+        padding-right:0;
+    }
+
+    .contactUs2 {
+        margin: 0 30px 0 0;
+        flex: 50%;
+    }
+
+    .contactusform1 {
+       display:flex;
+        padding: 20px 0 20px 20px;
+        gap: 12px;
+    }
+    .contactusform2 {
+        display: flex;
+        padding: 20px 0 20px 20px;
+        gap: 12px;
+    }
+    .contactus-input {
+        width: 100%;
+        height: 25px;
+    }
+    .contactus-call-mail-text {
+        padding-left: 40px;
+        padding: 20px 0 20px 20px;
+
+    }
+    .contactus-comment {
+        padding:0 0px 20px 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contactUs {
+        margin: 0 100px;
+    }
+    .contactus-msg-input{
+        width:100%;
+    }
+    .contactUs1 {    
+        margin:150px 0 0 30px;
+    }
+    .contactusform1 {   
+        padding: 0px 0 20px 20px;
+        gap: 10px;
+    }
+    .contactusform2 {   
+        gap: 10px;
+    }
+    .contactus-comment {
+        padding:20px 0px 20px 20px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .contactUs1 {
+        flex: 30%;
+    }
+    .contactUs2 {
+        margin-right: 40px;
+        flex: 70%;
+    }
+    .contactus-input {
+        width:400px;
+        height: 25px;
+    }
+    .contactusform1 {   
+        padding: 0px 0 20px 20px;
+        gap: 20px;
+    }
+    .contactusform2 {   
+        padding: 0px 0 20px 20px;
+        gap: 20px;
+    }
+    .contactus-msg-text{
+        text-align: center;
+    }
+    .contactus-button {
+        height: 40px;
+        width: 50%;
+    }
+}
