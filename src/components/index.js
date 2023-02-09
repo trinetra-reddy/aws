@@ -5,5 +5,7 @@ import ContactUs from "./contactus/contactus";
 import Banner from "./Banner/Banner";
 import Carousel from "./Carousel/Carousel";  
 import ContactUsMap from "./ContactUsMap/ContactUsMap";
+import OurOffice from "./OurOffice/OurOffice";
+import AddressCard from "./AddressCard/AddressCard";
 
-export { Header, Footer,ConatctUsBanner,ContactUs,Carousel ,Banner,ContactUsMap};
+export { Header,AddressCard, Footer,ConatctUsBanner,ContactUs,Carousel ,Banner,ContactUsMap,OurOffice};

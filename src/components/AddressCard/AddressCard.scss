@@ -1,0 +1,71 @@
+@import '../../styles/variables';
+
+.contactus-icons{
+    width: 35px;
+    height: 35px;
+}
+.address-heading{
+    color: $primary-color;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #3a3a3a;
+    text-align: center;
+    margin:30px 9px 30px 9px;
+    padding:6px;
+}
+.address-details{
+    margin: 20px 10px 10px ;
+    box-shadow: 0 0 33px 0 rgb(0 0 0 / 8%);
+    padding:20px;
+}
+.addressCard2{
+    margin-top:20px;
+}
+.address{
+    display:flex;
+    gap:15px;
+}
+.address-content2{
+    padding-top:10px;
+}
+@media screen and (min-width:425px){
+    .addressCard{
+        margin:30px;
+    }
+    .address-content2{
+        padding-top:10px;
+    }
+}
+@media screen and (min-width:768px){
+    .addressCard{
+        display:flex;
+        margin:30px;
+        gap:20px;
+    }
+    .addressCard1{
+        flex:50%;
+        
+    }
+    .addressCard2{
+        margin-top:0px;
+        flex:50%
+    }
+    .address-content1{
+        padding-top:15px;
+    }
+    .address-content2{
+        padding-top:15px;
+    }
+}
+@media screen and (min-width:1024px){
+    .addressCard{
+        margin:0 100px;
+        gap:30px;
+    }
+   
+}
+@media screen and (min-width:1440px){
+    .addressCard{
+        margin:0 130px;
+    }
+}
