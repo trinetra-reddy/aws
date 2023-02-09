@@ -8,9 +8,7 @@ const About = () => {
     return (
         <div>
             <Header />
-            <div>
-                <span>About Page!!</span> Link to <Link to={CONSTANTS.ROUTES.HOME_PAGE}>Home</Link>
-            </div>
+            
             <Footer />
         </div>
     );

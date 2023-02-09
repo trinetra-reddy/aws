@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.contactUs-map{
+    padding:30px;
+}
+.contactUs-map iframe{
+    width:100%;
+    height:250px;
+}
+@media screen and (min-width:1024px){
+    .contactUs-map iframe{
+        height:350px;
+    }
+}
+@media screen and (min-width:1440px){
+    .contactUs-map iframe{
+        height:450px;
+    }
+}
