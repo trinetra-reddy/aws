@@ -27,7 +27,7 @@ const Contact = () => {
             <AddressCard heading1="NOIDA,UP" heading2="SIRSI,KA" address1={add1} phonenumber1={numb1} email={mail1} address2={add2} phonenumber2={numb2} email2={mail2}/>
             <AddressCard heading1="BENGALURU,KA" heading2="LONDON,UK" address1={add3} phonenumber1={numb3} email={mail3} address2={add4} phonenumber2={numb4} email2={mail4}/>
             <ContactUsMap />
-            
+            <Footer />
         </div>
     );
 };
