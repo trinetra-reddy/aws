@@ -1,7 +1,7 @@
 import React from "react";
 import "./contactus.scss";
-import callicon from "./callicon.jfif";
-import mailicon from "./mail.jfif";
+import callicon from "../../images/callicon.jfif";
+import mailicon from "../../images/mail.jfif";
 
 const ContactUs = () => {
     return (
@@ -12,17 +12,18 @@ const ContactUs = () => {
                     <div className="contactUs-text">contact us</div>
 
                     <div className="contactus-call-mail">
-                        <img  className="contactus-icons" src={callicon} alt="icon_1" />
+                        <img className="contactus-icons" src={callicon} alt="icon_1" />
                         <div className="contactus-contact-mail-details">
                             <div className="contactus-call-mail-text">Call Us</div>
-                            <a href="tel:+91-120-4226757" className="conatctus-call-mail-p">+91-120-4226757</a>
+                            <a href="tel:+91 96666 22090" className="conatctus-call-mail-p">+91 96666 22090</a>
                         </div>
                     </div>
                     <div className="contactus-call-mail">
                         <img className="contactus-icons" src={mailicon} alt="icon_1" />
                         <div className="contactus-contact-mail-details">
                             <div className="contactus-call-mail-text">Write to us</div>
-                            <a href="mailto:info@altdigital.tech" className="conatctus-call-mail-p">info@altdigital.tech</a>
+                            <a href="mailto:accounts@anathawebsolutions.com" className="conatctus-call-mail-p">accounts@anathawebsolutions.com
+                            </a>
 
                         </div>
                     </div>
@@ -66,7 +67,7 @@ const ContactUs = () => {
                             </div>
                             <div className="contactusform2">
                                 <div className="contactus-input2">
-                                    <div  id="form-text">Phone</div>
+                                    <div id="form-text">Phone</div>
                                     <input
                                         className="contactus-input"
                                         id="name"
@@ -86,13 +87,13 @@ const ContactUs = () => {
                                 </div>
                             </div>
                             <div className="contactus-comment">
-                                    <div className="form-content" id="form-text">Comment or Message</div>
-                                    <input className="contactus-msg-input"
-                                        id="contactus-msg"
-                                        name="name"
-                                        type="text">
+                                <div className="form-content" id="form-text">Comment or Message</div>
+                                <input className="contactus-msg-input"
+                                    id="contactus-msg"
+                                    name="name"
+                                    type="text">
 
-                                    </input>
+                                </input>
                             </div>
 
                             <div className="contactus-button-1">

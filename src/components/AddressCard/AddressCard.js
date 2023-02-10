@@ -1,8 +1,8 @@
 import React from "react";
 import "./AddressCard.scss";
-import locationicon from "./location-icon.jpeg";
-import callicon from "./callicon.jfif";
-import mailicon from "./mail.jfif";
+import locationicon from "../../images/location-icon.jpeg";
+import callicon from "../../images/callicon.jfif";
+import mailicon from "../../images/mail.jfif";
 
 const AddressCard = (props) => {
     return (
