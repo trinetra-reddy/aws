@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-.app-dev-image img {
+.app-dev-image {
     width: 100%;
 }
 
@@ -46,7 +46,7 @@
     flex-direction: column;
 }
 
-.customer-exp-image img {
+.customer-exp-image {
     width: 100%;
 }
 
@@ -81,7 +81,7 @@
     flex-direction: column;
 }
 
-.digital-com-image img {
+.digital-com-image {
     width: 100%;
 }
 
@@ -120,9 +120,8 @@
         flex-direction: row;
     }
 
-    .app-dev-image img {
+    .app-dev-image {
         width: 100%;
-        height: 70vh;
         flex: 35%;
         padding-right: 15px;
     }
@@ -150,9 +149,7 @@
         flex-direction: row;
     }
 
-    .customer-exp-image img {
-        width: 100%;
-        height: 60vh;
+    .customer-exp-image {
         flex: 35%;
         padding-right: 15px;
     }
@@ -180,9 +177,7 @@
         flex-direction: row;
     }
 
-    .digital-com-image img {
-        width: 100%;
-        height: 60vh;
+    .digital-com-image {
         flex: 35%;
         padding-right: 15px;
     }
