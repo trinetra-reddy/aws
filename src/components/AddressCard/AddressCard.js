@@ -1,8 +1,8 @@
 import React from "react";
 import "./AddressCard.scss";
-import locationicon from "../../images/location-icon.jpeg";
-import callicon from "../../images/callicon.jfif";
-import mailicon from "../../images/mail.jfif";
+import locationicon from "../../images/icon-region-org.png";
+import callicon from "../../images/icon-phone-org.png";
+import mailicon from "../../images/icon-envelope-org.png";
 
 const AddressCard = (props) => {
     return (
@@ -13,7 +13,7 @@ const AddressCard = (props) => {
                     <div className="address-details">
                         <div className="address">
                             <div className="address-icons">
-                                <img className="contactus-icons" src={locationicon} alt="icon_1" />
+                                <img className="contactus-icons1" src={locationicon} alt="icon_1" />
                             </div>
                             <div className="address-content1">
                                 {props.address1}
@@ -49,7 +49,7 @@ const AddressCard = (props) => {
                     <div className="address-details">
                         <div className="address">
                             <div className="address-icons">
-                                <img className="contactus-icons" src={locationicon} alt="icon_1" />
+                                <img className="contactus-icons1" src={locationicon} alt="icon_1" />
                             </div>
                             <div className="address-content1">
                                 {props.address2}
