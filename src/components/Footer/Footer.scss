@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 
-.footer {
+.footer-main {
     background-color: $black;
     color: $white;
     position: relative;
@@ -17,8 +17,8 @@
 .footer-cnt {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    padding: 10px 10px 30px 10px;
+    gap: 20px;
+    padding: 10px 10px 20px 20px;
     border-bottom: 1px solid $white;
 }
 .footer-cnt-col-1-heading{
@@ -126,8 +126,8 @@
     .footer-cnt {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        padding-top: 60px ;
+        gap: 20px;
+        padding: 10px 10px 20px 0px;
         margin: 0px 72px;
     }
     .footer-cnt2 {
@@ -151,9 +151,6 @@
         text-align: center;
         padding:  0px;
     }
-    .footerbg {
-        height: 90vh;
-    }
 }
 @media screen and (min-width: 998px) {
     .footer-cnt {
@@ -161,9 +158,6 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         padding-top: 72px ;
-        margin: 0px 40px;
-    }
-    .footerbg {
-        height: 60vh;
+        margin: 0px 72px;
     }
 }
