@@ -12,7 +12,9 @@ import arrowup from "../../images/icon-chevron-up-fff.png";
 const Footer = () => {
     return (
         <div className="footer">
-            <img src={footerbg} alt="footerbg" className="footerbg" />
+            {/* <div className="footerbg">
+            <img src={footerbg} alt="footerbg" className="footerbg-img" />
+            </div> */}
             <div className="footer-main">
                 <div className="footer-cnt">
                     <div className="footer-cnt-col-1">

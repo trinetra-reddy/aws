@@ -4,7 +4,7 @@ import bannerbg from "../../images/aws-banner-img.webp";
 
 const Banner = () => {
     return (
-        <div className="banner">
+        <div className="banner"> 
             <div className="banner-1">
                 <div className="banner-1-image">
                     <img src={bannerbg} alt="bannerbg" />
