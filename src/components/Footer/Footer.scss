@@ -3,7 +3,21 @@
 .footer-main {
     background-color: $black;
     color: $white;
+<<<<<<< HEAD
 }
+=======
+    position: relative;
+}
+.footerbg {
+    width: 100%;
+    height: 150vh;
+}
+.footer-main {
+    position: absolute;
+    top: 5%;
+}
+
+>>>>>>> d36c86bfa30b59292066f8fd7d7255046d849689
 .footer-cnt {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

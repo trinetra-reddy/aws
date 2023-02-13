@@ -2,7 +2,7 @@ import React from "react";
 import './Carousel.scss';
 import applicationdevimg from "../../images/application-development-image.webp";
 import customerexpimg from "../../images/customer-experience-image.webp";
-import digitalcommerceimg from "../../images/digital-commerce-image.webp";
+import digitalcommerceimg from "../../images/digital-Commerce-image.webp";
 import checkmark from "../../images/icon-checkmark-org.png";
 
 const Carousel = () => {

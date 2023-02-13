@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+.VissionMission-main{
+}
+.VissionMission-text{
+    padding:30px 24px;
+    background-image:url(../../images/footerbg.jpg);
+    background-size: cover;
+}
+.VissionMission-text-header{
+    color:$white;
+    font-weight:600;
+
+
+}
+.VissionMission-text-content{
+    color:$white;
+    font-weight:400;
+    font-size:14px;
+}
+.VissionMission-image{
+    width:100%;
+}
+@media screen and (min-width: 768px){
+    .VissionMission-text{
+        display:flex;
+        flex:70%;
+    }
+    .VissionMission-main{
+        display:flex;
+    }
+}
