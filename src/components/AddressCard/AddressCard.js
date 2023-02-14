@@ -1,8 +1,8 @@
 import React from "react";
 import "./AddressCard.scss";
-import locationicon from "../../images/location-icon.jpeg";
-import callicon from "../../images/callicon.jfif";
-import mailicon from "../../images/mail.jfif";
+import locationicon from "../../images/icon-region-org.png";
+import callicon from "../../images/icon-phone-org.png";
+import mailicon from "../../images/icon-envelope-org.png";
 
 const AddressCard = (props) => {
     return (
@@ -13,7 +13,7 @@ const AddressCard = (props) => {
                     <div className="address-details">
                         <div className="address">
                             <div className="address-icons">
-                                <img className="contactus-icons" src={locationicon} alt="icon_1" />
+                                <img className="contactus-icons1" src={locationicon} alt="icon_1" />
                             </div>
                             <div className="address-content1">
                                 {props.address1}
@@ -25,7 +25,8 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={callicon} alt="icon_2" />
                             </div>
                             <div className="address-content2">
-                                {props.phonenumber1}
+                                <a href="tel:{props.phonenumber1}" className="address-call-mail-p">{props.phonenumber1}</a>
+                                
                             </div>
                         </div>
 
@@ -34,7 +35,9 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={mailicon} alt="icon_3" />
                             </div>
                             <div className="address-content2">
-                                {props.email}
+                            <a href="mailto: {props.email}" className="address-call-mail-p"> {props.email}
+                            </a>
+                               
                             </div>
 
                         </div>
@@ -46,7 +49,7 @@ const AddressCard = (props) => {
                     <div className="address-details">
                         <div className="address">
                             <div className="address-icons">
-                                <img className="contactus-icons" src={locationicon} alt="icon_1" />
+                                <img className="contactus-icons1" src={locationicon} alt="icon_1" />
                             </div>
                             <div className="address-content1">
                                 {props.address2}
@@ -59,7 +62,8 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={callicon} alt="icon_2" />
                             </div>
                             <div className="address-content2">
-                                {props.phonenumber2}
+                            <a href="tel:{props.phonenumber2}" className="address-call-mail-p">{props.phonenumber2}</a>
+                                
                             </div>
                         </div>
                         <div className="address">
@@ -67,7 +71,8 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={mailicon} alt="icon_3" />
                             </div>
                             <div className="address-content2">
-                                {props.email2}
+                            <a href="mailto: {props.email2}" className="address-call-mail-p"> {props.email2}
+                            </a>
                             </div>
                         </div>
                     </div>

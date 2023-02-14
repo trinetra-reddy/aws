@@ -21,9 +21,13 @@ const Contact = () => {
             <ConatctUsBanner />
             <ContactUs />
             <OurOffice />
+<<<<<<< HEAD
             <AddressCard heading1="ANANTAPUR,AP" heading2="ANANTAPUR,AP" address1={add1} phonenumber1={numb1} email={mail1} address2={add2} phonenumber2={numb2} email2={mail2}/>
+=======
+            <AddressCard heading1="ANANTAPUR,AP" heading2="ANANTAPUR,AP" address1={add1} phonenumber1={numb1} email={mail1} address2={add2} phonenumber2={numb2} email2={mail2}/>  
+>>>>>>> da4179e1f4a8c5d9453027a8a4695edc7e22a88b
             <ContactUsMap />
-            <Footer />
+           
         </div>
     );
 };

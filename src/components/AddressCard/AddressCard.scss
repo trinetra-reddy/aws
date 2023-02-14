@@ -4,11 +4,15 @@
     width: 35px;
     height: 35px;
 }
+.contactus-icons1{
+    width:35px;
+    height:35px;
+}
 .address-heading{
     color: $primary-color;
     font-size: 22px;
     font-weight: 600;
-    background-color: #3a3a3a;
+    background-color: $grey;
     text-align: center;
     margin:30px 9px 30px 9px;
     padding:6px;
@@ -31,6 +35,14 @@
     overflow-wrap:break-word;
     word-break: break-word;
     word-wrap: break-word;
+    color:$black;
+}
+.address-call-mail-p{
+    color:$black;
+    text-decoration: none;
+}
+.address-content2 a:hover{
+    border-bottom:1px solid $black;
 }
 @media screen and (min-width:425px){
     .addressCard{
@@ -58,8 +70,10 @@
         padding-top:15px;
     }
     .address-content2{
-        padding-top:15px;
-       
+        padding-top:15px;  
+    }
+    .contactus-icons1{
+       padding-top:15px;
     }
 }
 @media screen and (min-width:1024px){
