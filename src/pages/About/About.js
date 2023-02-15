@@ -14,9 +14,9 @@ const About = () => {
   return (
     <div>
       {/* <Header /> */}
-      <AboutusBanner />
       <YearsofExperience />
       <VissionMission />
+      {/* <AboutusCarousel /> */}
       {/* <Footer /> */}
     </div>
   );

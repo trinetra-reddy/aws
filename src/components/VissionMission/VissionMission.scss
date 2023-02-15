@@ -3,16 +3,14 @@
   background-image: url(../../images/vissionmissionbg.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-.VissionMission-text {
   padding: 30px 24px;
 }
 .VissionMission-text-header {
   color: $black;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.2px;
-  font-size: 2em;
+  font-size: 30px;
 }
 .VissionMission-text-content {
   color: $black;
@@ -20,28 +18,30 @@
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.2px;
+  justify-content: flex-start;
 }
 .VissionMission-image {
   width: 100%;
 }
+.VissionMission-img {
+  margin-top: 60px;
+}
 @media screen and (min-width: 768px) {
   .VissionMission-text {
     display: flex;
-    flex: 90%;
+    flex: 100%;
     gap: 10px;
   }
   .VissionMission-main {
     display: flex;
     gap: 10px;
-    padding:60px;
   }
-  .VissionMission-img {
-    margin-top: 60px;
+}
+@media screen and (min-width:1200px){
+  .VissionMission-main{
+    padding:0px 100px;
   }
-  .VissionMission-text1 {
-    flex: 55%;
-  }
-  .VissionMission-text2 {
-    flex: 50%;
+  .VissionMission-text-content{
+    font-size:16px;
   }
 }
