@@ -13,11 +13,10 @@ import "./About.scss";
 const About = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <YearsofExperience />
       <VissionMission />
-      {/* <AboutusCarousel /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

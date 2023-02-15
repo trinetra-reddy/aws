@@ -6,7 +6,7 @@ const YearsofExperience = () => {
     <>
       <div className="yearsofexperience-main">
         <div className="yearsofexperience-text">
-          <div className="yearsofexperience-header-wrapper">
+          <div className="yearsofexperience-text-header">
             <div className="yearsofexperience-count-wrapper">
               <h1 className="yearsofexperience-count">10</h1>
             </div>
