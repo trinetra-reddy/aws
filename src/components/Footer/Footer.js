@@ -1,6 +1,5 @@
 import React from "react";
 import './Footer.scss';
-import footerbg from "../../images/footer-bg.webp";
 import locationicon from "../../images/icon-region-org.png";
 import phoneicon from "../../images/icon-phone-org.png";
 import envelopeicon from "../../images/icon-envelope-org.png";
@@ -12,9 +11,6 @@ import arrowup from "../../images/icon-chevron-up-fff.png";
 const Footer = () => {
     return (
         <div className="footer">
-            {/* <div className="footerbg">
-            <img src={footerbg} alt="footerbg" className="footerbg-img" />
-            </div> */}
             <div className="footer-main">
                 <div className="footer-cnt">
                     <div className="footer-cnt-col-1">
