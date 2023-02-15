@@ -11,37 +11,35 @@ const Casestudies = () => {
             <div className="casestudies-sub-heading">Our latest Work</div>
             <div className="casestudies-content">
                 <div className="casestudies-content-wraper">
-                    <div className="casestudies-content-wraper-heading">lorem ipsum</div>
-                    <div className="casestudies-content-wraper-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
-                    <div className="casestudies-content-wraper-btn"><a href="#" class="button">Read More</a></div>
+                    <div className="casestudies-content-wraper-heading">leading B2C ecom</div>
+                    <div className="casestudies-content-wraper-desc">  Developing an eCommerce MultiSite Online Store for Mexico’s Leading B2C of hardgoods and Softline products</div>
                 </div>
                 <div className="casestudies-content-wraper">
-                    <div className="casestudies-content-wraper-heading">lorem ipsum</div>
-                    <div className="casestudies-content-wraper-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
-                    <div className="casestudies-content-wraper-btn"><a href="#" class="button">Read More</a></div>
+                    <div className="casestudies-content-wraper-heading"> Leading Supplier for Fitness Products (USA)</div>
+                    <div className="casestudies-content-wraper-desc">Building an eCom website with 3rd party integration  from scratch for leading suppliers of products which consist of fitness & nutrition products </div>
+                    
                 </div>
                 <div className="casestudies-content-wraper">
-                    <div className="casestudies-content-wraper-heading">lorem ipsum</div>
-                    <div className="casestudies-content-wraper-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen bookn</div>
-                    <div className="casestudies-content-wraper-btn"><a href="#" class="button">Read More</a></div>
+                    <div className="casestudies-content-wraper-heading">Renowned MNC (USA)</div>
+                    <div className="casestudies-content-wraper-desc">Inventory, catalogue data & order management for American multinational corporation that designs, manufactures, and sells airplanes</div>
+                
                 </div>
                 <div className="casestudies-content-wraper">
-                    <div className="casestudies-content-wraper-heading">lorem ipsum</div>
-                    <div className="casestudies-content-wraper-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
-                    <div className="casestudies-content-wraper-btn"><a href="#" class="button">Read More</a></div>
+                    <div className="casestudies-content-wraper-heading">Plumbing Products Manufacturer(USA)</div>
+                    <div className="casestudies-content-wraper-desc">digital transform and complete restucturing of ecomerce wedsite for leading for plumbing products manufacturer united states</div>
+                
                 </div>
                 <div className="casestudies-content-wraper">
-                    <div className="casestudies-content-wraper-heading">lorem ipsum</div>
-                    <div className="casestudies-content-wraper-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
-                    <div className="casestudies-content-wraper-btn"><a href="#" class="button">Read More</a></div>
+                    <div className="casestudies-content-wraper-heading">Leading Home Furnishings(USA)</div>
+                    <div className="casestudies-content-wraper-desc">Harmonizing frontend & cloud management for Digital Transformation of a leading Home furnishings products manufacturer </div>
+                    
                 </div>
                 <div className="casestudies-content-wraper">
-                    <div className="casestudies-content-wraper-heading">lorem ipsum</div>
-                    <div className="Casestudies-content-wraper-desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
-                    <div className="casestudies-content-wraper-btn"><a href="#" class="button">Read More</a></div>
+                    <div className="casestudies-content-wraper-heading">Label Printing Corporation(India)</div>
+                    <div className="Casestudies-content-wraper-desc">producing management and distribution channels for various susidaries of the company in various formats for leading label indian company</div>
+                    
                 </div>
             </div>
-            <div className="casestudies-content-wraper-btn"><a href="#" class="button">View More Case Studies</a></div>
             <div className="process">
                 <div className="process-heading">process</div>
                 <div className="process-sub-heading">Software Development Approach</div>
