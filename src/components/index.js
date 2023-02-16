@@ -12,6 +12,7 @@ import AboutusBanner from "./AboutusBanner/AboutusBanner";
 import VissionMission from "./VissionMission/VissionMission";
 import ExpertsService from "./ExpertsService/ExpertsService";
 import Casestudies from "./Casestudies/Casestudies";
-
-export { Header, Footer,ConatctUsBanner,ContactUs,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertsService,Casestudies};
+import AboutusClients from "./AboutusClients/AboutusClients";
+import AboutusClientsCarousel from "./AboutusClients/AboutusClientCarousel";
+export { Header, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,ContactUs,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertsService,Casestudies};
 

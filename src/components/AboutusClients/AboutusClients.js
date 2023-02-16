@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
 import "./AboutusClients.scss";
-const AboutusClients = () => {
-    return( <>
+const AboutusClients = (props) => {
+  return (
+    <>
+      <div className="Client-main">
+        <img className="clients-logo" src={props.image} autoPlay controls></img>
+      </div>
     </>
-    )
-}
+  );
+};
 export default AboutusClients;

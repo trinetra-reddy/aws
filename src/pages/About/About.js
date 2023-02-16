@@ -6,6 +6,7 @@ import {
   VissionMission,
   YearsofExperience,
   Header,
+  AboutusClientsCarousel,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import "./About.scss";
@@ -13,10 +14,11 @@ import "./About.scss";
 const About = () => {
   return (
     <div>
-      {/* <Header /> */}
-      < AboutusBanner />
+      <Header />
+      <AboutusBanner />
       <YearsofExperience />
       <VissionMission />
+      <AboutusClientsCarousel />
       {/* <Footer /> */}
     </div>
   );
