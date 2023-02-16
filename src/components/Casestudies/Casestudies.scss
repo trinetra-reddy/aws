@@ -27,7 +27,7 @@
     border: 1px solid $black;
     background: $black;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 .casestudies-content-wraper-heading {
     font-size: 16px;
@@ -41,19 +41,7 @@
     padding-top: 15px;
     text-align: center;
 }
-.casestudies-content-wraper-btn .button {
-    background-color: $primary-color;
-    border: none;
-    color: $white !important;
-    padding: 12px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 3px;
-}
+
 .process {
     background-color: $black;
     color: $white;
@@ -96,6 +84,10 @@
 }
 @media screen and (min-width: 768px) {
     .process-content {
+        grid-template-columns: repeat(3,1fr);
+        padding: 0px 72px 50px;
+    }
+    .casestudies-content {
         grid-template-columns: repeat(3,1fr);
         padding: 0px 72px 50px;
     }
