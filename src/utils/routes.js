@@ -1,3 +1,4 @@
+import React from 'react';
 import { Home, Contact, About, Services, Styleguide } from "../pages";
 import { CONSTANTS } from "./constants";
 
