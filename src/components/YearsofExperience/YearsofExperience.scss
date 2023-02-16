@@ -1,6 +1,6 @@
 @import "../../styles/_variables";
 .yearsofexperience-main {
-  padding: 10px 24px 30px;
+  padding: 30px 24px;
 }
 .yearsofexperience-count {
   font-size: 114px;
@@ -40,7 +40,7 @@
 }
 @media screen and (min-width: 998px) {
   .yearsofexperience-main {
-    padding: 30px 60px 60px;
+    padding: 60px 60px;
     display: flex;
     justify-content: space-between;
   }
