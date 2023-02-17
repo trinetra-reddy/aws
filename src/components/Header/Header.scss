@@ -6,6 +6,13 @@ header {
     z-index: 100;
     background-color: $black;
 }
+.nav__links  {
+    border-bottom: 1px solid transparent;
+  }
+  .nav__links .active {
+    border-color: $white;
+    border-bottom:1px solid $white;
+  }
 
 .navbar {
     display: flex;
