@@ -26,7 +26,7 @@ const ContactUsForm = () => {
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Write to us</div>
                         <div className="contactus-col1-wrpr1-text-p">
-                            <a href="mailto:accounts@anathawebsolutions.com" className="conatctus-call-mail-p">accounts.com
+                            <a href="mailto:accounts@anathawebsolutions.com" className="conatctus-call-mail-p">accounts@ananthawebsolutions.com
                             </a>
                         </div>
                     </div>
