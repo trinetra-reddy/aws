@@ -55,16 +55,12 @@
 @media screen and (min-width:768px){
     .addressCard{
         display:flex;
-        margin:30px;
-        gap:20px;
-    }
-    .addressCard1{
-        flex:50%;
-        
+        margin:10px;
+       
     }
     .addressCard2{
         margin-top:0px;
-        flex:50%
+        
     }
     .address-content1{
         padding-top:15px;
@@ -79,7 +75,7 @@
 @media screen and (min-width:1024px){
     .addressCard{
         margin:0 100px;
-        gap:30px;
+        
     }
     .address-content2{
         white-space: nowrap;
@@ -89,5 +85,6 @@
 @media screen and (min-width:1440px){
     .addressCard{
         margin:0 130px;
+        gap:30px;
     }
 }
