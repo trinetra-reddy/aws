@@ -11,7 +11,7 @@ const Banner = () => {
                 </div>
                 <div className="banner-1-wrpr">
                     <div className="banner-1-wrpr-text-1">
-                        Empoer your Business
+                        Empower your Business
                     </div>
                     <div className="banner-1-wrpr-text-2">
                         Excellent IT services for your success

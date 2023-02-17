@@ -56,6 +56,8 @@
     font-size: 35px;
     font-weight: 700;
     padding-bottom: 20px ;
+    max-width:300px;
+    margin:0 auto;
 }
 .process-content {
     display: grid;
@@ -70,11 +72,14 @@
     font-size: 24px;
     font-weight: 700;
     padding-top: 10px;
+    padding-bottom:15px;
 }
 .process-content-col-descrp {
     font-size: 16px;
     font-weight: 500;
     padding-top: 10px;
+    text-align:center;
+    max-width:359px;
 }
 
 @media screen and (min-width: 576px) {
@@ -85,7 +90,7 @@
 @media screen and (min-width: 768px) {
     .process-content {
         grid-template-columns: repeat(3,1fr);
-        padding: 0px 72px 50px;
+        padding: 0px 77px 50px;
     }
     .casestudies-content {
         grid-template-columns: repeat(3,1fr);
