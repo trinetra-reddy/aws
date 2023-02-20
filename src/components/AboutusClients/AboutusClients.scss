@@ -2,16 +2,21 @@
 .Client-main-wrapper {
   padding: 30px 24px;
 }
-.Client-main {
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-}
-.Client-Heading{
-  font-size: 18px;
+.Client-Heading {
+  font-size: 36px;
   color: $primary-color;
   line-height: 1.2;
   letter-spacing: 0.2px;
   font-weight: 600;
   text-align: center;
+}
+.Client-main {
+  align-items: center;
+  width: 150px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 998px) {
+  .Client-main-wrapper {
+    padding: 60px;
+  }
 }

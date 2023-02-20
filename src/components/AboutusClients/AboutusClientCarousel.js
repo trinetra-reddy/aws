@@ -14,8 +14,8 @@ const AboutusClientsCarousel = (props) => {
   return (
     <>
       <div className="Client-main-wrapper">
-        <div className="Client-Heading">
-          <h1>Clients Served by Our Team</h1>
+        <div >
+          <h1 className="Client-Heading" >Clients Served by Our Team</h1>
         </div>
         <div className="Client-logos">
           <Swiper
