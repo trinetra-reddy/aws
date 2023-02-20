@@ -34,9 +34,9 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="nav_links hide">
-                    <a href="#" className="navlink">Home</a>
-                    <a href="#" className="navlink">About Us</a>
-                    <a href="#" className="navlink">Contact Us</a>
+                    <a href="/home" className="navlink">Home</a>
+                    <a href="/about-us" className="navlink">About Us</a>
+                    <a href="/contact-us" className="navlink">Contact Us</a>
                 </div>
             </nav>
         </header>
