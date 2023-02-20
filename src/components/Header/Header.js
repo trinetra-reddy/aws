@@ -3,6 +3,7 @@ import './Header.scss';
 import menuicon from "../../images/menu_icon.png";
 import closeicon from "../../images/close_icon.png";
 import searchicon from "../../images/icon_search.png";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 
@@ -34,9 +35,9 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="nav_links hide">
-                    <a href="/home" className="navlink">Home</a>
-                    <a href="/about-us" className="navlink">About Us</a>
-                    <a href="/contact-us" className="navlink">Contact Us</a>
+                    <NavLink to="/" className="navlink">Home</NavLink>
+                    <NavLink to="/about-us" activeclassname="active">About Us</NavLink>
+                    <NavLink to="/contact-us" activeclassname="active">Contact Us</NavLink>
                 </div>
             </nav>
         </header>

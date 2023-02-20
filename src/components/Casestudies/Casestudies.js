@@ -47,7 +47,7 @@ const Casestudies = () => {
                     <div className="process-content-col">
                         <img src={icondesigning} alt="icondesigning" className="icondesigning" />
                         <div className="process-content-col-heading">Designing</div>
-                        <div className="process-content-col-descrp">Software design usually involves problem solving and planning a software solution</div>
+                        <div className="process-content-col-descrp">Software design usually involves problem-solving and planning a software solution</div>
                     </div>
                     <div className="process-content-col">
                         <img src={icondevelopment} alt="icondevelopment" className="icondevelopment" />
