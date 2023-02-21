@@ -7,6 +7,7 @@ import {
   YearsofExperience,
   Header,
   AboutusClientsCarousel,
+
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import "./About.scss";
@@ -19,7 +20,7 @@ const About = () => {
       <YearsofExperience />
       <VissionMission />
       <AboutusClientsCarousel />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

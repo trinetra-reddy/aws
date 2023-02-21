@@ -15,5 +15,21 @@ import AboutusClients from "./AboutusClients/AboutusClients";
 import AboutusClientsCarousel from "./AboutusClients/AboutusClientCarousel";
 import ContactUsForm from "./ContactUsForm/ContactUsForm";
 
-export { Header,ContactUsForm, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertsService,Casestudies};
-
+export {
+  Header,
+  ContactUsForm,
+  Footer,
+  AboutusClientsCarousel,
+  AboutusClients,
+  ConatctUsBanner,
+  AboutusBanner,
+  VissionMission,
+  YearsofExperience,
+  Carousel,
+  Banner,
+  ContactUsMap,
+  OurOffice,
+  AddressCard,
+  ExpertsService,
+  Casestudies,
+};
