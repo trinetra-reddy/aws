@@ -25,7 +25,7 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={callicon} alt="icon_2" />
                             </div>
                             <div className="address-content2">
-                                <a href="tel:{props.phonenumber1}" className="address-call-mail-p">{props.phonenumber1}</a>
+                                <a href={`tel:{props.phonenumber1}`} className="address-call-mail-p">{props.phonenumber1}</a>
                                 
                             </div>
                         </div>
@@ -35,7 +35,7 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={mailicon} alt="icon_3" />
                             </div>
                             <div className="address-content2">
-                            <a href="mailto: {props.email}" className="address-call-mail-p"> {props.email}
+                            <a href={`mailto: {props.email}`} className="address-call-mail-p"> {props.email}
                             </a>
                                
                             </div>
@@ -62,7 +62,7 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={callicon} alt="icon_2" />
                             </div>
                             <div className="address-content2">
-                            <a href="tel:{props.phonenumber2}" className="address-call-mail-p">{props.phonenumber2}</a>
+                            <a href={`tel:{props.phonenumber2}`} className="address-call-mail-p">{props.phonenumber2}</a>
                                 
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const AddressCard = (props) => {
                                 <img className="contactus-icons" src={mailicon} alt="icon_3" />
                             </div>
                             <div className="address-content2">
-                            <a href="mailto: {props.email2}" className="address-call-mail-p"> {props.email2}
+                            <a href={`mailto: {props.email2}`} className="address-call-mail-p"> {props.email2}
                             </a>
                             </div>
                         </div>
