@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+.services-main{
+    background-color: $black;
+    color:$white;
+    padding-left:15px;
+}
+.service-head{
+    color:$primary-color;
+    font-size: 36px;
+}
+.services-image{
+    width:100%;
+}
+.services-wrapper1{
+    height:280px;
+    width:280px;
+    
+}
+@media screen and (min-width:768px){
+    .services-main{
+        display:flex;
+    }
+    .services-img{
+        align-items: center;
+        justify-content: center; 
+    }
+    .services-wrapper1{
+        height:80px;
+        width:800px;
+        
+    }
+}

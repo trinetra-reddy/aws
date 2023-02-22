@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Contact, About, Services, Styleguide } from "../pages";
+import { Home, Contact, About, Services, Styleguide,Awshome } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
@@ -22,4 +22,9 @@ export const routes = [{
     component: <Styleguide />,
     path: CONSTANTS.ROUTES.STYLEGUIDE,
     isExact: true
-}];
+}, {
+    component: <Awshome />,
+    path: CONSTANTS.ROUTES.AWSHOME,
+    isExact: true
+},
+];

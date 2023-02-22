@@ -5,6 +5,7 @@ export const CONSTANTS = {
         CONTACT_PAGE: '/contact-us',
         ABOUT_PAGE: '/about-us',
         SERVICES_PAGE: '/services',
-        STYLEGUIDE: '/styleguide'
+        STYLEGUIDE: '/styleguide',
+        AWSHOME: '/home'
     },
 };
