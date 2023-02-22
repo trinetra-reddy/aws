@@ -14,30 +14,10 @@ import Casestudies from "./Casestudies/Casestudies";
 import AboutusClients from "./AboutusClients/AboutusClients";
 import AboutusClientsCarousel from "./AboutusClients/AboutusClientCarousel";
 import ContactUsForm from "./ContactUsForm/ContactUsForm";
-<<<<<<< HEAD
 import HomeBanner from "./HomeBanner/HomeBanner";
 import Whywedo from "./Whywedo/Whywedo";
 import Services1 from "./Services1/Services1";
 export { Header,ContactUsForm, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertsService,Casestudies,HomeBanner,Whywedo,Services1};
 
-=======
 
-export {
-  Header,
-  ContactUsForm,
-  Footer,
-  AboutusClientsCarousel,
-  AboutusClients,
-  ConatctUsBanner,
-  AboutusBanner,
-  VissionMission,
-  YearsofExperience,
-  Carousel,
-  Banner,
-  ContactUsMap,
-  OurOffice,
-  AddressCard,
-  ExpertsService,
-  Casestudies,
-};
->>>>>>> ea197fab61c39b777c76fb09f3ddcfd33a9e72e5
+
