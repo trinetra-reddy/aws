@@ -7,6 +7,8 @@
 .service-head{
     color:$primary-color;
     font-size: 36px;
+    font-weight:700;
+    margin-bottom:23px;
 }
 .services-image{
     width:100%;
@@ -16,17 +18,69 @@
     width:280px;
     
 }
+.serives-text{
+    font-size:15px;
+    margin-bottom:36px;
+    font-weight:500;
+}
+.services-wrapper2-pts{
+    display:flex;
+    margin-bottom:20px;
+}
+.services-wrapper2-li{
+    list-style:none;
+}
+.services-wrapper2-img{
+    height:25px;
+    width:25px;
+    margin-right:10px;
+}
+
 @media screen and (min-width:768px){
-    .services-main{
-        display:flex;
-    }
     .services-img{
         align-items: center;
         justify-content: center; 
     }
     .services-wrapper1{
-        height:80px;
-        width:800px;
-        
+        height:600px;
+        width:600px;
+        align-items: center;
+        justify-content: center;
     }
+    .services-main{
+        padding-left:60px;
+
+    }
+    .services-wrapper-container{
+        display:flex;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (min-width:960px){
+    .services-main{
+        display:flex;
+        padding:10px 65px;
+    }
+    .services-wrapper1{
+       flex:35%;
+       width:100%;
+      
+       padding-right:15px;
+       margin:0 auto;
+      
+    }
+    .services-image{
+        padding:15px 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .services-wrapper2{
+        flex:65%;
+        padding-top:15px 0px;
+    }
+    .services-text{
+        font-size:32px;
+    }
+   
 }
