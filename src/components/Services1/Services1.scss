@@ -19,7 +19,8 @@
     
 }
 .serives-text{
-    font-size:15px;
+    padding-right:10px;
+    font-size:14px;
     margin-bottom:36px;
     font-weight:500;
 }
@@ -29,6 +30,7 @@
 }
 .services-wrapper2-li{
     list-style:none;
+    padding-right:15px;
 }
 .services-wrapper2-img{
     height:25px;
@@ -51,17 +53,19 @@
         padding-left:60px;
 
     }
-    .services-wrapper-container{
-        display:flex;
-        justify-content: space-between;
-    }
 
+  
 }
 @media screen and (min-width:960px){
     .services-main{
         display:flex;
         padding:10px 65px;
     }
+    .services-wrapper-container{
+        display:flex;
+        gap:40px;
+    }
+
     .services-wrapper1{
        flex:35%;
        width:100%;
@@ -81,6 +85,7 @@
     }
     .services-text{
         font-size:32px;
+        padding-right: none;
     }
    
 }

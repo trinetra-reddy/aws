@@ -1,45 +1,7 @@
 @import '../../styles/variables';
 
-.casestudies{
+.Expertise{
     padding: 15px 0px;
-}
-.casestudies-heading {
-    font-size: 35px;
-    font-weight: 700;
-    color: $primary-color;
-    text-align: center;
-}
-.casestudies-sub-heading {
-    font-size: 16px;
-    font-weight: 500;
-    color: $black;
-    text-align: center;
-}
-.casestudies-content {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 10px;
-    margin-top: 20px;
-    padding: 30px;
-    color: $white;
-}
-.casestudies-content-wraper {
-    border: 1px solid $black;
-    background: $black;
-    text-align: center;
-    padding: 40px;
-}
-.casestudies-content-wraper-heading {
-    font-size: 16px;
-    font-weight: 700;
-}
-.casestudies-content-wraper-descrp {
-    font-size: 16px;
-    font-weight: 500;
-}
-.casestudies-content-wraper-btn {
-    padding-top: 15px;
-    text-align: center;
 }
 
 .process {
@@ -80,20 +42,12 @@
     padding-top: 10px;
     text-align:center;
     max-width:359px;
-}
-
-@media screen and (min-width: 576px) {
-    .casestudies-content {
-        grid-template-columns: repeat(2,1fr);
-    }
+    margin-bottom:15px;
 }
 @media screen and (min-width: 768px) {
     .process-content {
-        grid-template-columns: repeat(3,1fr);
-        padding: 0px 77px 50px;
+      display:flex;
+       justify-content: space-between;
     }
-    .casestudies-content {
-        grid-template-columns: repeat(3,1fr);
-        padding: 0px 72px 50px;
-    }
+ 
 }    
