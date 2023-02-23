@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header,HomeBanner,Whywedo,Services1,Footer, Casestudies} from "../../components";
+import {Header,HomeBanner,ExpertiseWrapper,Whywedo,Services1,Footer, Casestudies} from "../../components";
 import './Awshome.scss';
 import applicationdevimg from "../../images/application-development-image.webp";
 import digitalcommerceimg from "../../images/digital-commerce-image.webp";
@@ -18,6 +18,7 @@ const Awshome = (props) => {
            <Services1 name="Customer Experience" img={customerexpimg} text={cusexptext} checkmark={checkmark}li1="Customer service" li2="Drive customer loyality" li3="Retention and account management" li4="Technical support" li5="customer service"li6="Personalised at scale" imgPosition="right"/>
            <Services1 name="Digital Commerce" img={digitalcommerceimg} text={dctext} checkmark={checkmark} li1="Sales growth and channel effectiveness" li2="Orchestrate seamless cross-channel" li3="Omni-Channel Commerce Optimisation" li4="Omni-Channel Commerce Optimisation" li5="Direct Digital Commerce Enablement" li6="Optimise performance to maximise sales "/>
            <Casestudies />
+           <ExpertiseWrapper />
            <Footer />
           
         </>

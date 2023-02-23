@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+.Expertise-main {
+  padding: 24px 0px;
+}
+.Expertise-numbers {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.1px;
+  margin-bottom: 50px;
+  color: $white;
+}
+#Expertise-count {
+  font-size: 46px;
+}
+.Expertise-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: $white;
+}
+.ExpertiseWrapper-section {
+  background-color: $black;
+  padding:10px;
+}
+.ExpertiseWrapper-main {
+  padding: 40px 0px;
+  background-image: url("../../images/Card-background.webp");
+  background-color: $primary-color;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .ExpertiseWrapper-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 40px 60px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .ExpertiseWrapper-main {
+    padding: 40px 120px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .ExpertiseWrapper-main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .ExpertiseWrapper-section {
+    padding: 0 50px;
+  }
+}
