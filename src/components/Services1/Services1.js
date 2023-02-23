@@ -1,52 +1,44 @@
 import React from "react";
 import applicationdevimg from "../../images/application-development-image.webp";
 import "./Services1.scss";
-import checkmark from "../../images/icon-checkmark-org.png";
-const Services1 = () => {
+const Services1 = (props) => {
   return (
     <>
-      <div className="services-main">
-        <div className="services-wrapper1">
-          <img className="services-image" src={applicationdevimg} alt="applicationdevimg" />
+      <div className={`services-main ${props.imgPosition}`}>
+        <div className={`services-wrapper1 ${props.imgPosition}`}>
+          <img className="services-image" src={props.img} alt="applicationdevimg" />
         </div>
         <div className="services-wrapper2">
-          <div className="service-head">Application Development</div>
-          <div className="serives-text">
-            Gathering & analyzing requirements, designing prototypes, testing,
-            seamless implementation, and integration is what we are proficient
-            with. We have expertise and domain experience across key industry
-            verticals including marketing, e-commerce, and quality assured
-            practices across a variety of technology frameworks such as Oracle
-            ATG Web Commerce, Adobe Experience Manager helps to support and
-            extend the quality practices of end-customers.
+          <div className="service-head">{props.name}</div>
+          <div className="serives-text">{props.text}
           </div>
           <div className="services-wrapper-container">
           <div>
             <div className="services-wrapper2-pts">
-              <img className="services-wrapper2-img"src={checkmark} alt="checkmarks"/>
-              <li className="services-wrapper2-li">Custom Application Development</li>
+              <img className="services-wrapper2-img"src={props.checkmark} alt="checkmarks"/>
+              <li className="services-wrapper2-li">{props.li1}</li>
             </div>
             <div className="services-wrapper2-pts">
-              <img className="services-wrapper2-img"src={checkmark} alt="checkmarks"/>
-              <li className="services-wrapper2-li">Low-Code Application Development</li>
+              <img className="services-wrapper2-img"src={props.checkmark} alt="checkmarks"/>
+              <li className="services-wrapper2-li">{props.li2}</li>
             </div>
             <div className="services-wrapper2-pts">
-              <img className="services-wrapper2-img"src={checkmark} alt="checkmarks"/>
-              <li className="services-wrapper2-li">Database Application Development</li>
+              <img className="services-wrapper2-img"src={props.checkmark} alt="checkmarks"/>
+              <li className="services-wrapper2-li">{props.li3}</li>
             </div>
             </div>
             <div>
             <div className="services-wrapper2-pts">
-              <img className="services-wrapper2-img"src={checkmark} alt="checkmarks"/>
-              <li className="services-wrapper2-li">Rapid Application Development</li>
+              <img className="services-wrapper2-img"src={props.checkmark} alt="checkmarks"/>
+              <li className="services-wrapper2-li">{props.li4}</li>
             </div>
             <div className="services-wrapper2-pts">
-              <img className="services-wrapper2-img"src={checkmark} alt="checkmarks"/>
-              <li className="services-wrapper2-li">Mobile Application Development</li>
+              <img className="services-wrapper2-img"src={props.checkmark} alt="checkmarks"/>
+              <li className="services-wrapper2-li">{props.li5}</li>
             </div>
             <div className="services-wrapper2-pts">
-              <img className="services-wrapper2-img"src={checkmark} alt="checkmarks"/>
-              <li className="services-wrapper2-li">Enterprise Application Development</li>
+              <img className="services-wrapper2-img"src={props.checkmark} alt="checkmarks"/>
+              <li className="services-wrapper2-li">{props.li6}</li>
             </div>
             </div>
           </div>
