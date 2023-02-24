@@ -9,7 +9,7 @@ import Carousel from "./Carousel/Carousel";
 import YearsofExperience from "./YearsofExperience/YearsofExperience";
 import AboutusBanner from "./AboutusBanner/AboutusBanner";
 import VissionMission from "./VissionMission/VissionMission";
-import ExpertsService from "./ExpertsService/ExpertsService";
+import ExpertService from "./ExpertService/ExpertService";
 import Casestudies from "./Casestudies/Casestudies";
 import AboutusClients from "./AboutusClients/AboutusClients";
 import AboutusClientsCarousel from "./AboutusClients/AboutusClientCarousel";
@@ -19,7 +19,7 @@ import Whywedo from "./Whywedo/Whywedo";
 import Services1 from "./Services1/Services1";
 import ExpertiseCard from "./ExpertiseCard/ExpertiseCard";
 import ExpertiseWrapper from "./ExpertiseCard/ExpertiseWrapper";
-export { Header,ContactUsForm,ExpertiseCard,ExpertiseWrapper, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertsService,Casestudies,HomeBanner,Whywedo,Services1};
+export { Header,ContactUsForm,ExpertiseCard,ExpertiseWrapper, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertService,Casestudies,HomeBanner,Whywedo,Services1};
 
 
 
