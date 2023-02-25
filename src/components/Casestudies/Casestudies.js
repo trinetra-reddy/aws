@@ -11,7 +11,7 @@ const Casestudies = () => {
       <div className="casestudies-heading">
         <h3>Process</h3>
         <h1>
-          Software Development<span id="heading-break">Approach</span>{" "}
+          Software Development Approach
         </h1>
       </div>
       <div className="casestudies-sections">

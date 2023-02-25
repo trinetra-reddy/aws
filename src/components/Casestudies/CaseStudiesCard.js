@@ -5,7 +5,7 @@ const CaseStudiesCard = (props) => {
     <>
       <div className="casestudycard-main">
         <div className="casestudycard-image">
-          <img src={props.image} alt=" "></img>
+          <img src={props.image} alt={props.heading}></img>
         </div>
         <div className="casestudycard-content">
           <div className="casestudycard-heading">

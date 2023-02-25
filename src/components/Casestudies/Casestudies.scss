@@ -21,13 +21,11 @@
 
 /* Card component styles */
 .casestudycard-main {
-  padding: 18px 2px;
+  text-align: center;
 }
 .casestudycard-image {
-  justify-content: center;
-  align-content: center;
   img {
-    width: 100%;
+    width: 100px;
   }
 }
 .casestudycard-content {
@@ -35,29 +33,24 @@
 }
 .casestudycard-heading {
   h2 {
-    text-align: center;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
   }
 }
 .casestudycard-description {
   p {
     font-size: 16px;
-    text-align: center;
     font-weight: 600;
   }
 }
 @media screen and (min-width: 768px) {
   .casestudies-sections {
     display: flex;
-    justify-content: space-between;
-    background-image: url("../../images/line-image.png");
-    background-size: auto;
-    background-repeat: no-repeat;
+    gap: 10px;
   }
 }
 @media screen and (min-width: 998px) {
   .casestudies-main {
-    padding: 30px 60px;
+    padding: 30px 50px;
   }
 }
