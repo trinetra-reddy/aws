@@ -80,7 +80,7 @@ const Footer = () => {
 
                 </div>
                 <div className="footer-main-2">
-                    <div className="ff">
+                    <div className="footer-cr-container">
                         <div className="footer-icons-1">
                             <div className="ficon1">
                                 <Link to="#"><img className="f-icons" src={facebookicon} alt="facebook icon"></img></Link>

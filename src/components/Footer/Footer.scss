@@ -1,140 +1,164 @@
 @import "../../styles/variables.scss";
 
-.footer{
-    background-color:$black;
+.footer {
+    background-color: $black;
+    margin-top: 20px;
 }
-.footer1{
-    padding:0 32px;
+.footer1 {
+    padding: 0 32px;
     margin-bottom: 40px;
 }
-.footer-loc-call-mail{
+
+.footer-loc-call-mail {
     display: flex;
-   gap:10px;
-   color:$white;
-   padding-bottom:15px;
+    gap: 10px;
+    color: $white;
+    padding-bottom: 15px;
 }
-.footer-heading1{
-    font-size:22px;
+
+.footer-heading1 {
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom:40px;
-    color:$white;
+    margin-bottom: 40px;
+    color: $white;
 }
-.footer-icons1{
-    width:35px;
-    height:35px;
+
+.footer-icons1 {
+    width: 35px;
+    height: 35px;
 }
-.footer-call-mail-p{
+
+.footer-call-mail-p {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
-    color:$white;
+    color: $white;
 }
-#footer-mail{
-    width:200px;
-    overflow-wrap:break-word;
+
+#footer-mail {
+    width: 200px;
+    overflow-wrap: break-word;
     word-break: break-word;
     word-wrap: break-word;
 }
-.footer-link{
+
+.footer-link {
     text-decoration: none;
-    color:$white;
+    color: $white;
 }
-#footer-li{
+
+#footer-li {
     list-style: none;
-    margin-top:11px;
-    margin-bottom:10px;
-    padding-left:-20px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    padding-left: -20px;
 }
-.footer-link-names{
-    font-size:16px;
+
+.footer-link-names {
+    font-size: 16px;
     font-weight: 400;
 }
-#fheading{
-    padding-top:100px;
+
+#fheading {
+    padding-top: 100px;
 }
-hr{
-    background-color: $black;
+
+.f-icons {
+    width: 20px;
+    height: 20px;
+    padding: 10px 12px;
+    margin: 0 auto;
 }
-.f-icons{
-    width:25px;
-    height:25px;
-    padding:10px 12px;
-    margin:0 auto;
-}
-.footer-main-2{ 
+
+.footer-main-2 {
     align-items: center;
 }
-.footer-icons-1{
+
+.footer-icons-1 {
     display: flex;
-    padding:0 12px;   
+    padding: 0 12px;
     justify-content: center;
 }
-.footer-cr-content{
-    color:$white;
-   padding:10px;
-   text-align: center;
-   font-size: 14px;
-   font-weight: 400;
-   
+
+.footer-cr-content {
+    color: $white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
 }
-.f-cr-details{
-    color:$primary-color;
+
+.f-cr-details {
+    color: $primary-color;
 }
-.footer-main-2{
-    border-top: 1px solid #403c3c!important;
-    padding:20px 0;
+
+.footer-main-2 {
+    border-top: 1px solid #403c3c !important;
+    padding: 20px 0;
 }
-.ff{
-    padding:0 12px;
-    margin:0 24px;
+
+.footer-cr-container {
+    padding: 0 12px;
+    margin: 0 24px;
 }
-@media screen and (min-width:768px){
-    .footer-main1{
-        display: flex;     
+
+@media screen and (min-width:768px) {
+    .footer-main1 {
+        display: flex;
     }
-    .footer-address-content{
-        width:200px;
-        overflow-wrap:break-word;
+
+    .footer-address-content {
+        width: 200px;
+        overflow-wrap: break-word;
         word-break: break-word;
         word-wrap: break-word;
     }
-    #fheading{
-        padding-top:0px;
+
+    #fheading {
+        padding-top: 0px;
     }
-    .footer-main{
-        padding-top:40px;
-        margin:0 60px;
+
+    .footer-main {
+        padding-top: 40px;
+        margin: 0 60px;
     }
-    .footer1{
-        flex:50%;
-    }   
-    .ff{
-        display: flex;
+
+    .footer1 {
+        flex: 50%;
     }
-    .footer-copyrights{
-        padding:0 12px;
-        width:50%;
+
+    .footer-copyrights {
+        padding: 0 12px;
+        width: 50%;
     }
-    .footer-icons-1{
-        margin:0;
-        padding:0 12px;
-        width:50%;
-        justify-content:flex-start;
+
+    .footer-icons-1 {
+        margin: 0;
+        padding: 0 12px;
+        width: 50%;
+        justify-content: flex-start;
     }
-    .footer-cr-content{
+
+    .footer-cr-content {
         text-align: right;
     }
-    
-}
-@media screen and (min-width:1440px){
-    .footer-main{
+
+    .footer-cr-container {
         display: flex;
-        margin:0 60px;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .footer-main {
+        display: flex;
+        margin: 0 60px;
         flex-wrap: wrap;
-        justify-content:space-around;
+        justify-content: space-around;
     }
-    #footer-d{
-        gap:100px;
+
+    #footer-d {
+        gap: 100px;
     }
-    
 }
