@@ -7,7 +7,6 @@ import facebookicon from "../../images/icon-facebook-fff.png";
 import twittericon from "../../images/icon-twitter-fff.png";
 import linkedinicon from "../../images/icon-linkedin-fff.png";
 import searchicon from "../../images/icon_search.png";
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -72,12 +71,8 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
-
                 </div>
                 <div className="footer-main-2">
                     <div className="footer-cr-container">
@@ -101,12 +96,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </>
-
     );
 };
 

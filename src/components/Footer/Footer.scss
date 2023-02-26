@@ -4,6 +4,7 @@
     background-color: $black;
     margin-top: 20px;
 }
+
 .footer1 {
     padding: 0 32px;
     margin-bottom: 40px;
@@ -86,7 +87,6 @@
     text-align: center;
     font-size: 14px;
     font-weight: 400;
-
 }
 
 .f-cr-details {
@@ -146,10 +146,9 @@
 
     .footer-cr-container {
         display: flex;
+        margin: 0 60px;
     }
-
 }
-
 @media screen and (min-width:1440px) {
     .footer-main {
         display: flex;
