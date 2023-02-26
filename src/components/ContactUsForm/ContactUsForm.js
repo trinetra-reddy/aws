@@ -41,7 +41,6 @@ const ContactUsForm = () => {
                     id="fs-frm"
                     name="simple-contact-form"
                     acceptCharset="utf-8"
-                    action="https://formspree.io/f/xlevpvdb"
                     method="post"
                 >
                     <div className="contactus-col2-input2">
@@ -91,14 +90,14 @@ const ContactUsForm = () => {
                     </div>
                     <div className="contactus-col2-input3">
                     <label className="form-label" id="form-text">Comment or Message</label>
-                        <input
+                        <textarea
                             className="contactus-inputs"
                             id="name"
                             id="contactus-inputmessage"
                             required
                             name="name"
                             type="text"
-                        ></input>
+                        ></textarea>
                     </div>
                     <div className="contactus-button-1">
                         <button className="contactus-button" type="submit">Send Message

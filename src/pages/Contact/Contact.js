@@ -23,6 +23,7 @@ const Contact = () => {
             <OurOffice />
             <AddressCard heading1="ANANTAPUR,AP" heading2="ANANTAPUR,AP" address1={add1} phonenumber1={numb1} email={mail1} address2={add2} phonenumber2={numb2} email2={mail2}/>  
             <ContactUsMap />
+            <Footer />
             
         </div>
     );
