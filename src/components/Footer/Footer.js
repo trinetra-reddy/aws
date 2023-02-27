@@ -23,12 +23,9 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-address-content">
                                     # FF7, 2nd Floor, Paniraj Towers,
-                                    Kamala Nagar, Near Varun Hospital Ananthapuramu,Andhra Pradesh 515001;
+                                    Kamala Nagar, Near Varun Hospital, Ananthapuramu, Andhra Pradesh 515001;
                                 </div>
-
                             </div>
-                        
-
                         </div>
                         <div className="footer1" id="footer-part2">
                             <div className="footer-heading1">Know More</div>
@@ -37,29 +34,28 @@ const Footer = () => {
                                 <Link to="/about-us" className="footer-link"><li id="footer-li">About Us</li></Link>
                                 <Link to="/contact-us" className="footer-link"><li id="footer-li">Contact Us</li></Link>
                             </div>
-
                         </div>
-                    <div className="footer1">
-                        <div className="footer-heading1">
-                            Contact Us
-                        </div>
-                        <div className="footer-loc-call-mail">
-                            <div className="footer-call">
-                                <img className="footer-icons1" src={callicon} alt="call-icon"></img>
+                        <div className="footer1">
+                            <div className="footer-heading1">
+                                Contact Us
                             </div>
-                            <div className="footer-call-mail-content">
-                                <a href="tel:+91 96666 22090" className="footer-call-mail-p">+91 96666 22090</a>
+                            <div className="footer-loc-call-mail">
+                                <div className="footer-call">
+                                    <img className="footer-icons1" src={callicon} alt="call-icon"></img>
+                                </div>
+                                <div className="footer-call-mail-content">
+                                    <a href="tel:+91 96666 22090" className="footer-call-mail-p">+91 96666 22090</a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="footer-loc-call-mail">
-                            <div className="footer-call">
-                                <img className="footer-icons1" src={mailicon} alt="mail-icon"></img>
+                            <div className="footer-loc-call-mail">
+                                <div className="footer-call">
+                                    <img className="footer-icons1" src={mailicon} alt="mail-icon"></img>
+                                </div>
+                                <div className="footer-call-mail-content">
+                                    <a href="mailto:accounts@anathawebsolutions.com" className="footer-call-mail-p" id="footer-mail">accounts@ananthawebsolutions.com
+                                    </a>
+                                </div>
                             </div>
-                            <div className="footer-call-mail-content">
-                                <a href="mailto:accounts@anathawebsolutions.com" className="footer-call-mail-p" id="footer-mail">accounts@ananthawebsolutions.com
-                                </a>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>

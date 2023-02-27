@@ -34,14 +34,6 @@
     text-decoration: none;
     color: $white;
 }
-
-#footer-mail {
-    width: 200px;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    word-wrap: break-word;
-}
-
 .footer-link {
     text-decoration: none;
     color: $white;
@@ -101,7 +93,12 @@
     padding: 0 12px;
     margin: 0 24px;
 }
-
+#footer-mail {
+    width: 200px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+}
 @media screen and (min-width:768px) {
     #fheading {
         padding-top: 0px;
@@ -111,11 +108,6 @@
         padding-top: 40px;
         margin: 0 60px;
     }
-
-    .footer1 {
-        flex: 50%;
-    }
-
     .footer-copyrights {
         padding: 0 12px;
         width: 50%;
@@ -140,26 +132,25 @@
 
 @media screen and (min-width:1024px) {
     .footer-address-content {
-        width: 180px;
+        width: 200px;
         overflow-wrap: break-word;
         word-break: break-word;
         word-wrap: break-word;
     }
-
     .footer-main1 {
         display: flex;
     }
     #footer-part2{
         padding-left:15%;
     }
-    
+    .footer1 {
+        flex: 50%;
+    }
+
 }
 @media screen and (min-width:1440px){
-    .footer-address-content {
-        width: 200px;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        word-wrap: break-word;
+    #footer-part2{
+        padding-left:13%
     }
 }
 

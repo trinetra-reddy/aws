@@ -41,6 +41,7 @@ const ContactUsForm = () => {
                     id="fs-frm"
                     name="simple-contact-form"
                     acceptCharset="utf-8"
+                    
                     method="post"
                 >
                     <div className="contactus-col2-input2">
