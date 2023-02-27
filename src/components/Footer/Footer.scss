@@ -2,7 +2,6 @@
 
 .footer {
     background-color: $black;
-    margin-top: 20px;
 }
 
 .footer1 {
@@ -104,17 +103,6 @@
 }
 
 @media screen and (min-width:768px) {
-    .footer-main1 {
-        display: flex;
-    }
-
-    .footer-address-content {
-        width: 200px;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        word-wrap: break-word;
-    }
-
     #fheading {
         padding-top: 0px;
     }
@@ -149,15 +137,29 @@
         margin: 0 60px;
     }
 }
-@media screen and (min-width:1440px) {
-    .footer-main {
-        display: flex;
-        margin: 0 60px;
-        flex-wrap: wrap;
-        justify-content: space-around;
+
+@media screen and (min-width:1024px) {
+    .footer-address-content {
+        width: 180px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        word-wrap: break-word;
     }
 
-    #footer-d {
-        gap: 100px;
+    .footer-main1 {
+        display: flex;
+    }
+    #footer-part2{
+        padding-left:15%;
+    }
+    
+}
+@media screen and (min-width:1440px){
+    .footer-address-content {
+        width: 200px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        word-wrap: break-word;
     }
 }
+

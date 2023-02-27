@@ -27,50 +27,39 @@ const Footer = () => {
                                 </div>
 
                             </div>
+                        
+
                         </div>
-
-
-                        <div className="footer1">
+                        <div className="footer1" id="footer-part2">
                             <div className="footer-heading1">Know More</div>
                             <div className="footer-link-names">
-                                <Link to="/" className="footer-link"><li id="footer-li">Home</li></Link>
+                                <Link to="/home" className="footer-link"><li id="footer-li">Home</li></Link>
                                 <Link to="/about-us" className="footer-link"><li id="footer-li">About Us</li></Link>
                                 <Link to="/contact-us" className="footer-link"><li id="footer-li">Contact Us</li></Link>
                             </div>
 
                         </div>
-                    </div>
-                    <div className="footer-main1">
-                        <div className="footer1">
-                            <div className="footer-heading1">Check Out</div>
-                            <div className="footer-link-names">
-                                <li id="footer-li"><Link className="footer-link">Services</Link></li>
-                                <li id="footer-li"><Link className="footer-link">Resources</Link></li>
-                                <li id="footer-li"><Link className="footer-link">Careers</Link></li>
-                            </div>
-
+                    <div className="footer1">
+                        <div className="footer-heading1">
+                            Contact Us
                         </div>
-                        <div className="footer1">
-                            <div className="footer-heading1">
-                                Contact Us
+                        <div className="footer-loc-call-mail">
+                            <div className="footer-call">
+                                <img className="footer-icons1" src={callicon} alt="call-icon"></img>
                             </div>
-                            <div className="footer-loc-call-mail">
-                                <div className="footer-call">
-                                    <img className="footer-icons1" src={callicon} alt="call-icon"></img>
-                                </div>
-                                <div className="footer-call-mail-content">
-                                    <a href="tel:+91 96666 22090" className="footer-call-mail-p">+91 96666 22090</a>
-                                </div>
+                            <div className="footer-call-mail-content">
+                                <a href="tel:+91 96666 22090" className="footer-call-mail-p">+91 96666 22090</a>
                             </div>
-                            <div className="footer-loc-call-mail">
-                                <div className="footer-call">
-                                    <img className="footer-icons1" src={mailicon} alt="mail-icon"></img>
-                                </div>
-                                <div className="footer-call-mail-content">
-                                    <a href="mailto:accounts@anathawebsolutions.com" className="footer-call-mail-p" id="footer-mail">accounts@ananthawebsolutions.com
-                                    </a>
-                                </div>
+                        </div>
+                        <div className="footer-loc-call-mail">
+                            <div className="footer-call">
+                                <img className="footer-icons1" src={mailicon} alt="mail-icon"></img>
                             </div>
+                            <div className="footer-call-mail-content">
+                                <a href="mailto:accounts@anathawebsolutions.com" className="footer-call-mail-p" id="footer-mail">accounts@ananthawebsolutions.com
+                                </a>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -81,18 +70,18 @@ const Footer = () => {
                                 <Link to="#"><img className="f-icons" src={facebookicon} alt="facebook icon"></img></Link>
                             </div>
                             <div className="ficon1">
-                            <Link to="#"><img className="f-icons" src={twittericon} alt="Twitter icon"></img></Link>
+                                <Link to="#"><img className="f-icons" src={twittericon} alt="Twitter icon"></img></Link>
                             </div>
                             <div className="ficon1">
-                            <Link to="#"><img className="f-icons" src={linkedinicon} alt="LinkedIn icon"></img></Link>
+                                <Link to="#"><img className="f-icons" src={linkedinicon} alt="LinkedIn icon"></img></Link>
                             </div>
                             <div className="ficon1">
-                            <Link to="#"><img className="f-icons" src={searchicon} alt="search icon"></img></Link>
+                                <Link to="#"><img className="f-icons" src={searchicon} alt="search icon"></img></Link>
                             </div>
                         </div>
                         <div className="footer-copyrights">
                             <div className="footer-cr-content">
-                                © 2023 | All Rights Reserved By <span className="f-cr-details">Aws.</span>
+                                &#169; 2023 | All Rights Reserved By <span className="f-cr-details">Aws.</span>
                             </div>
                         </div>
                     </div>
