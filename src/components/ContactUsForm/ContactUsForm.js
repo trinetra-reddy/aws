@@ -93,7 +93,6 @@ const ContactUsForm = () => {
                     <label className="form-label" id="form-text">Comment or Message</label>
                         <textarea
                             className="contactus-inputs"
-                            id="name"
                             id="contactus-inputmessage"
                             required
                             name="name"
