@@ -1,10 +1,16 @@
 @import '../../styles/variables';
 
-header {
+.navbarmain{
     position: sticky;
     top: 0;
     z-index: 100;
     background-color: $black;
+}
+.nav-active{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: $primary-color;
 }
 .nav__links  {
     border-bottom: 1px solid transparent;
@@ -25,7 +31,7 @@ header {
 
 .logo {
     font-size: 30px;
-    color: $primary-color;
+    color: $white;
     font-weight: 900;
 }
 .hamburger {
@@ -58,7 +64,6 @@ header {
     height: 100vh;
     top: 75px;
     left: 0px;
-    background-color: $black;
     text-align: left;
 }
 .nav_links a {
@@ -93,7 +98,6 @@ header {
         position: static;
         width: 100%;
         height: auto;
-        background-color: $black;
         display: flex;
         justify-content: end;
     }
