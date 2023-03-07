@@ -4,6 +4,7 @@ import menuicon from "../../images/menu_icon.png";
 import closeicon from "../../images/close_icon.png";
 import searchicon from "../../images/icon_search.png";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [navbarmain,setNavbar] = useState(false);
@@ -45,7 +46,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="nav_links hide">
-                    <NavLink to="/" className="navlink">Home</NavLink>
+                    <Link to="/" activeclassname="active">Home</Link>
                     <NavLink to="/about-us" activeclassname="active">About Us</NavLink>
                     <NavLink to="/contact-us" activeclassname="active">Contact Us</NavLink>
                 </div>
