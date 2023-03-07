@@ -1,10 +1,10 @@
 import React from 'react';
-import { Home, Contact, About, Services, Styleguide,Awshome } from "../pages";
+import {  Contact, About, Services, Styleguide,Awshome } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
-    component: <Home />,
-    path: CONSTANTS.ROUTES.HOME_PAGE,
+    component: <Awshome />,
+    path: CONSTANTS.ROUTES.AWSHOME_PAGE,
     isExact: true
 }, {
     component: <Contact />,
@@ -21,10 +21,6 @@ export const routes = [{
 }, {
     component: <Styleguide />,
     path: CONSTANTS.ROUTES.STYLEGUIDE,
-    isExact: true
-}, {
-    component: <Awshome />,
-    path: CONSTANTS.ROUTES.AWSHOME,
     isExact: true
 },
 ];
