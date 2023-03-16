@@ -18,7 +18,10 @@ import HomeBanner from "./HomeBanner/HomeBanner";
 import Whywedo from "./Whywedo/Whywedo";
 import Services1 from "./Services1/Services1";
 import ExpertiseWrapper from "./ExpertiseCard/ExpertiseWrapper";
-export { Header,ContactUsForm,ExpertiseWrapper, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertService,Casestudies,HomeBanner,Whywedo,Services1};
+import ExpertiseCard from "./ExpertiseCard/ExpertiseCard";
+
+
+export { Header,ContactUsForm,ExpertiseCard,ExpertiseWrapper, Footer,AboutusClientsCarousel,AboutusClients,ConatctUsBanner,AboutusBanner,VissionMission,YearsofExperience,Carousel ,Banner,ContactUsMap,OurOffice,AddressCard,ExpertService,Casestudies,HomeBanner,Whywedo,Services1};
 
 
 

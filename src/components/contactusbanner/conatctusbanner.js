@@ -1,6 +1,5 @@
 import React from "react";
 import "./conatctusbanner.scss";
-import contactusbannerimg from "./contact-us-banner.webp";
 
 const ConatctUsBanner=()=>{
     return (
